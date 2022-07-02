@@ -6,9 +6,11 @@ import styles from "./Cover.module.css";
 function Cover() {
   return (
     <div className="flex flex-col">
-      <div className={`${styles.title} text-5xl  md:text-7xl text-center py-5`}>
-        ROOFTOP SWAYING TIL DAWN
-      </div>
+      <h1
+        className={`${styles.title} text-5xl md:text-7xl py-5 text-center overflow-auto text-[7vw] `}
+      >
+        ROOFTOP SWAYING <br /> TIL DAWN
+      </h1>
 
       <div className="relative mx-3 md:mx-auto md:h-auto md:w-3/4 ">
         <Image src={pic} alt="Good Time" layout="responsive" />

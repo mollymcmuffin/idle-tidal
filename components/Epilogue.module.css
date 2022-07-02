@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/super-retro-m54');
+@import url('http://fonts.cdnfonts.com/css/caviar-dreams');
+@font-face {
+    font-family: 'akira';
+    
+    src: url('../asset/akira/akira.otf');
+    font-style: normal;
+    }
+
+
+.title {
+    font-family: 'Super Retro M54', sans-serif;
+}
+
+.para {
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+.highlight {
+    font-family: 'akira';
+    
+}
+
+
+

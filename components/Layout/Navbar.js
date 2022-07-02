@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`${styles.para} flex flex-wrap items-center justify-between w-full px-4 py-4 text-lg text-gray-700 bg-white md:py-0 `}
+      className={`${styles.para} flex flex-wrap items-center justify-between w-full px-4 py-4 text-lg text-gray-700 bg-white md:py-0 border border-b-black`}
     >
       <div className="text-3xl leading-4">IDLE TIDAL</div>
       <svg
@@ -32,14 +32,20 @@ function Navbar() {
       <div
         className={`${
           isHidden ? "hidden" : ""
-        } w-full md:flex md:items-center md:w-auto`}
+        } w-full md:flex md:items-center md:w-auto `}
+        onClick={menu}
       >
         <ul className="pt-4 text-xl text-gray-700 md:flex md:justify-between md:pt-0">
           <Link href="/">
             <a className="block py-2 md:p-4 hover:text-purple-400">HOME</a>
           </Link>
           <Link href="/about">
-            <a className="block py-2 md:p-4 hover:text-purple-400">ABOUT</a>
+            <a
+              className="block py-2 md:p-4 hover:text-purple-400 "
+              onClick={menu}
+            >
+              ABOUT
+            </a>
           </Link>
         </ul>
       </div>

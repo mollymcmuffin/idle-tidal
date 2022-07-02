@@ -43,7 +43,7 @@ const Videos = () => {
   //   }, []);
 
   return (
-    <div className="flex flex-col gap-4 my-3">
+    <div className="flex flex-col gap-12 pt-4 my-3 ">
       {videos.map((video, i) => {
         return (
           <YoutubeVideo

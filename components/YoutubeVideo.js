@@ -2,9 +2,9 @@ import React from "react";
 
 const youtubeVideo = ({ videoID, ID, autoPlay }) => {
   return (
-    <div className="flex justify-center aspect-video">
+    <div className="flex justify-center aspect-video md:max-h-[80vh]">
       <iframe
-        className="object-contain w-11/12 h-auto"
+        className="object-contain w-11/12 h-auto md:max-w-[75vw]"
         width="560"
         height="315"
         key={ID}
