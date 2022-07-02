@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 
-export default function Contact() {
+export default function About() {
   return (
     <>
-      <h1 className="">CONTACT</h1>
+      <h1 className="">about</h1>
     </>
   );
 }

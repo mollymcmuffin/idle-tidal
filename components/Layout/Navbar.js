@@ -38,8 +38,8 @@ function Navbar() {
           <Link href="/">
             <a className="block py-2 md:p-4 hover:text-purple-400">HOME</a>
           </Link>
-          <Link href="/contact">
-            <a className="block py-2 md:p-4 hover:text-purple-400">CONTACT</a>
+          <Link href="/about">
+            <a className="block py-2 md:p-4 hover:text-purple-400">ABOUT</a>
           </Link>
         </ul>
       </div>
