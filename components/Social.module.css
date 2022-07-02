@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'akira';
     
-    src: url('../asset/akira/akira.otf');
+    src: url('../public/akira.otf');
     font-style: normal;
     }
 
