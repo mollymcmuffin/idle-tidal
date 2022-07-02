@@ -9,7 +9,7 @@ function Cover() {
       <div className={`${styles.title} text-7xl text-center py-5`}>
         ROOFTOP SWAYING TIL DAWN
       </div>
-      <div className="relative md:mx-auto md:h-auto md:w-3/4 ">
+      <div className="relative mx-3 md:mx-auto md:h-auto md:w-3/4 ">
         <Image src={pic} alt="Good Time" layout="responsive" />
       </div>
     </>

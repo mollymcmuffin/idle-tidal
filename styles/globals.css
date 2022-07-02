@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+
+
 html,
 body {
   padding: 0;
@@ -21,5 +23,4 @@ a {
   box-sizing: border-box;
 }
 
-@import url('http://fonts.cdnfonts.com/css/american-captain-2');
 
