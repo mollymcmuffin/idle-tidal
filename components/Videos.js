@@ -18,28 +18,29 @@ const Videos = () => {
     "2fDzCWNS3ig",
   ];
 
-  //   useEffect(() => {
-  //     axios
-  //       .get(reqURL)
-  //       .then(function (response) {
-  //         // handle success
-  //         //console.log(response.data.items[0].id.videoId);
-  //         const videoResults = response.data.items;
-  //         videoResults = videoResults.map((result) => result.id.videoId);
-  //         console.log(videoResults);
-  //         setVideos(youtube);
-  //       })
-  //       .catch(function (error) {
-  //         // handle error
-  //         console.log(error);
-  //       })
-  //       .then(function () {
-  //         // always executed
-  //       });
-  //   }, []);
   useEffect(() => {
-    setVideos(youtube);
+    axios
+      .get(reqURL)
+      .then(function (response) {
+        // handle success
+        //console.log(response.data.items[0].id.videoId);
+        const videoResults = response.data.items;
+        videoResults = videoResults.map((result) => result.id.videoId);
+        console.log(videoResults);
+        setVideos(videoResults);
+      })
+      .catch(function (error) {
+        // handle error
+        console.log(error);
+      })
+      .then(function () {
+        // always executed
+      });
   }, []);
+
+  //   useEffect(() => {
+  //     setVideos(youtube);
+  //   }, []);
 
   return (
     <div className="flex flex-col gap-4 my-3">
