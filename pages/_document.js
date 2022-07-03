@@ -12,6 +12,10 @@ export default function Document() {
           href="https://fonts.cdnfonts.com/css/super-retro-m54"
           rel="stylesheet"
         />
+        <link
+          href="http://fonts.cdnfonts.com/css/akira-expanded"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />
