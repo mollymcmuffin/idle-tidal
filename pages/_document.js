@@ -13,7 +13,7 @@ export default function Document() {
           rel="stylesheet"
         />
         <link
-          href="http://fonts.cdnfonts.com/css/akira-expanded"
+          href="https://fonts.cdnfonts.com/css/akira-expanded"
           rel="stylesheet"
         />
       </Head>
