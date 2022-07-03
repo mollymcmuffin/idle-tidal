@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <link
-          href="http://fonts.cdnfonts.com/css/caviar-dreams"
+          href="https://fonts.cdnfonts.com/css/caviar-dreams"
           rel="stylesheet"
         />
         <link
