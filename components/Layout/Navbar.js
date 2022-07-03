@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`${styles.para} flex flex-wrap items-center justify-between w-full px-4 py-4 text-lg text-gray-700 bg-white md:py-0 border-b-[1px] border-black sticky top-0 z-10`}
+      className={`${styles.para} flex flex-wrap items-center justify-between w-full px-4 py-4 text-lg text-gray-700 bg-white md:py-0 border-b-[1px] border-solid border-black sticky top-0 z-10`}
     >
       <div className="text-3xl leading-4">IDLE TIDAL</div>
       <svg
