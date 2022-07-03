@@ -1,10 +1,10 @@
 import React from "react";
 
-const youtubeVideo = ({ videoID, ID, autoPlay }) => {
+const YoutubeVideo = ({ videoID, ID, autoPlay }) => {
   return (
-    <div className="flex justify-center aspect-video md:max-h-[80vh]">
+    <div className="flex justify-center aspect-video md:max-h-[80vh] md:mx-auto my-[10vh] mx-[5vw]">
       <iframe
-        className="object-contain w-11/12 h-auto md:max-w-[75vw]"
+        className="object-contain w-11/12 h-auto md:max-w-[75vw] grow"
         width="560"
         height="315"
         key={ID}
@@ -18,4 +18,4 @@ const youtubeVideo = ({ videoID, ID, autoPlay }) => {
   );
 };
 
-export default youtubeVideo;
+export default YoutubeVideo;

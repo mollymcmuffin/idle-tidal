@@ -5,18 +5,11 @@ import YoutubeVideo from "./YoutubeVideo";
 const Videos = () => {
   const apiKey = "AIzaSyAJFaSz8cvRCTfyFMumlQeG2oI9ryMgBJI";
   const channelID = "UCf7cEcOrfw0tMSAutdUwoNQ";
-  const totalResults = 6;
+  const totalResults = 1;
   const reqURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelID}&maxResults=${totalResults}&order=date&key=${apiKey}`;
 
   const [videos, setVideos] = useState([]);
-  const youtube = [
-    "2fDzCWNS3ig",
-    "2fDzCWNS3ig",
-    "2fDzCWNS3ig",
-    "2fDzCWNS3ig",
-    "2fDzCWNS3ig",
-    "2fDzCWNS3ig",
-  ];
+  const youtube = ["2fDzCWNS3ig"];
 
   useEffect(() => {
     axios
@@ -38,12 +31,12 @@ const Videos = () => {
       });
   }, []);
 
-  //   useEffect(() => {
-  //     setVideos(youtube);
-  //   }, []);
+  // useEffect(() => {
+  //   setVideos(youtube);
+  // }, []);
 
   return (
-    <div className="flex flex-col gap-12 pt-4 my-3 ">
+    <div>
       {videos.map((video, i) => {
         return (
           <YoutubeVideo
