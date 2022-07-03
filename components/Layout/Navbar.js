@@ -12,10 +12,10 @@ function Navbar() {
     <nav
       className={`${styles.para} flex flex-row-reverse md:flex-row flex-wrap items-center justify-between w-full p-4 text-lg text-gray-700 bg-white md:py-0 border-y-[1px] border-x-0 border-solid border-black sticky top-0 z-10`}
     >
-      <div className="m-auto text-3xl leading-4 md:mx-0">IDLE TIDAL</div>
+      <div className="mx-auto text-3xl leading-4 md:mx-0">IDLE TIDAL</div>
       <svg
         onClick={menu}
-        className="w-6 h-6 cursor-pointer md:hidden"
+        className="w-6 h-6 cursor-pointer  md:hidden"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
