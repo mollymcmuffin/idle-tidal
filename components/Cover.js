@@ -7,7 +7,7 @@ function Cover() {
   return (
     <div className="flex flex-col">
       <h1
-        className={`${styles.title} text-5xl md:text-7xl py-5 text-center overflow-auto text-[7vw] `}
+        className={`${styles.title} text-5xl md:text-7xl py-5 text-center overflow-auto text-[7vw]`}
       >
         ROOFTOP SWAYING <br /> TIL DAWN
       </h1>
